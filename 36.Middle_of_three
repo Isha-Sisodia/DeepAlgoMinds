@@ -1,0 +1,12 @@
+# https://www.geeksforgeeks.org/problems/middle-of-three2926/1
+#User function Template for python3
+
+class Solution:
+    def middle(self, a, b, c):
+        #code here
+        if (a > b and a < c) or (a<b and a>c):
+            return a
+        elif  (b>c and b<a) or (b<c and b>a):
+            return b
+        else:
+            return c
